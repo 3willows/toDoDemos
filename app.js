@@ -38,4 +38,8 @@ while (carryOn) {
   if (response === 'quit') {
     carryOn = false
   }
+
+  else {
+    alert(`Options are: "new", "list", "delete" and "quit"`)
+  }
 }
